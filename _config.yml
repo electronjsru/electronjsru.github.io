@@ -30,3 +30,5 @@ kramdown:
 
 gems:
   - jekyll-paginate
+
+comments: true
