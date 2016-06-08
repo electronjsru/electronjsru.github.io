@@ -13,7 +13,16 @@ published: true
       {{content}}
     </section>
     
-      {% if site.comments %}
+    <footer class="post-footer">
+      <section class="share">
+        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+          Share on
+          {% include icon-twitter.html %}
+        </a>
+      </section>
+    </footer>
+    
+     {% if site.comments %}
         <div id="disqus_thread"></div>
         <script>
         /**
@@ -37,15 +46,7 @@ published: true
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
       {% endif %}
-      
-    <footer class="post-footer">
-      <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
-          Share on
-          {% include icon-twitter.html %}
-        </a>
-      </section>
-    </footer>
+    
     <div class="bottom-teaser cf">
       <div class="isLeft">
         <h5 class="index-headline featured"><span>Written by</span></h5>
