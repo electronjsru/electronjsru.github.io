@@ -14,6 +14,7 @@ logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://electronjs.ru" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
+comments: true
 
 name: 'electronjsru'
 bio: >
@@ -30,5 +31,3 @@ kramdown:
 
 gems:
   - jekyll-paginate
-
-comments: true
