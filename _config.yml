@@ -15,13 +15,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://electronjs.ru" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
-name: 'electronjs'
+name: 'electronjsru'
 bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
+  Статьи и уроки на тему фреймворка Electron.
 author_image: "/assets/images/author.jpg"
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+github_username:  electronjsru
 
 # Build settings
 markdown: kramdown
