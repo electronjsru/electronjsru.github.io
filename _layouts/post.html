@@ -43,7 +43,7 @@ published: true
           </p>
           <hr>
           <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
-        </section>
+        
         
         {% if site.comments %}
         <div id="disqus_thread"></div>
@@ -69,6 +69,8 @@ published: true
           </script>
           <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         {% endif %}
+        
+        </section>
         
       </div>
       {{/post}}
