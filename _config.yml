@@ -32,3 +32,5 @@ kramdown:
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
