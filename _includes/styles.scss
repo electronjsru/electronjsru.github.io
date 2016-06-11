@@ -21,6 +21,10 @@ amp-img {
   background-color: grey;
 }
 
+.logo amp-img {
+    background: #fff;
+}
+
 .cf {
   @include clearfix;
 }
